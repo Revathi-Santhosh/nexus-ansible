@@ -1,0 +1,6 @@
+- name: Run user role on all servers
+  hosts:
+   - all
+  become: true
+  roles:
+   - create_first_role

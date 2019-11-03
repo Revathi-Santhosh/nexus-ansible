@@ -1,0 +1,8 @@
+[all]
+18.212.56.155 ansible_user=ubuntu
+
+[all:vars]
+posix_username="tomcat"
+posix_groupname="tomcat"
+posix_shell="/bin/false"
+posix_home="/opt/tomcat"

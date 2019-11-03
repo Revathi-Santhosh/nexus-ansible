@@ -1,0 +1,9 @@
+---
+- name: create tomcat user
+  user:
+    name: "{{ posix_username }}"
+    state: present
+    group: "{{ posix_groupname }}"
+    create_home: yes
+    shell: "{{ posix_shell }}"
+    home: "{{ posix_home }}"

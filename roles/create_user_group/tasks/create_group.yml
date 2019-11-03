@@ -1,0 +1,5 @@
+---
+- name: create group for tomcat
+  group:
+    name: "{{ posix_groupname }}"
+    state: present

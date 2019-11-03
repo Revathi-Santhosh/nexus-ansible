@@ -1,0 +1,8 @@
+---
+- name: check for required variables are provided in user and group
+  assert:
+    that:
+      - posix_username != ""
+      - posix_groupname != ""
+- include_tasks: create_group.yml
+- include_tasks: create_user.yml
