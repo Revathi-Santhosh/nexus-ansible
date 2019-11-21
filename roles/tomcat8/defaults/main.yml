@@ -1,0 +1,7 @@
+---
+tomcat_dir: "/opt/tomcat"
+tomcat_user: "tomcat"
+tomcat_group: "tomcat"
+
+installation_srclocation: "~/tarfile"
+tomcat_archive: ""
