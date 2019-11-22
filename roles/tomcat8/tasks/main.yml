@@ -4,8 +4,10 @@
    that:
      - tomcat_dir != ""
      - installation_srclocation!= ""
-     - tomcat_archive != ""
+     - tomcat_archive!=""
+     - tomcat_version!= ""
    msg: "Required variables are not assigned"
 
 - include: directory.yml
 - include: tomcat_install.yml
+- include: create_tomcat_service.yml
