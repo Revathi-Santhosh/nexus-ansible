@@ -1,2 +1,24 @@
 ---
-# handlers file for tomcat8
+- name: To restart tomcat service
+  systemd:
+    name: tomcat
+    state: restarted
+    daemon_reload: yes
+
+- name: To start tomcat service
+  systemd:
+    name: tomcat
+    state: started
+    daemon_reload: yes
+
+- name: To stop tomcat service
+  systemd:
+    name: tomcat
+    state: stopped
+    daemon_reload: yes
+
+- name: To reload tomcat service
+  systemd:
+    name: tomcat
+    state: reloaded
+    daemon_reload: yes
