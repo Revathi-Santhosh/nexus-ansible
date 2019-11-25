@@ -1,5 +1,5 @@
 [all]
-52.87.246.16  ansible_user=ubuntu
+54.84.29.251  ansible_user=ubuntu
 
 [all:vars]
 posix_username="tomcat"
