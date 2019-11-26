@@ -2,6 +2,4 @@
    - all
   become: true
   roles:
-    - java8
-    - create_user_group
-    - tomcat8
+   - tomcat8

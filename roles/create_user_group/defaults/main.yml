@@ -1,5 +1,1 @@
 ---
-posix_username: ""
-posix_groupname: ""
-posix_shell: ""
-posix_home: "/home/{{ posix_username }}"

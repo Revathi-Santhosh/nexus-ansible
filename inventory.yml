@@ -1,12 +1,5 @@
 [all]
-54.84.29.251  ansible_user=ubuntu
+34.207.69.221  ansible_user=ubuntu
 
 [all:vars]
-posix_username="tomcat"
-posix_groupname="tomcat"
-posix_shell="/bin/false"
-posix_home="/opt/tomcat"
-tomcat_archive="apache-tomcat-{{ tomcat_version }}.{{ tomcat_archive_format }}"
 tomcat_version="8.5.47"
-tomcat_archive_format="tar.gz"
-tomcat_umask_value="0007"
