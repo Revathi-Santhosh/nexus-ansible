@@ -18,7 +18,7 @@ ExecStop={{ tomcat_dir }}/bin/shutdown.sh
 User={{ tomcat_user }}
 Group={{ tomcat_group }}
 UMask={{ tomcat_umask_value }}
-RestartSec=10
+RestartSec={{ tomcat_restart_sec }}
 Restart=always
 
 [Install]

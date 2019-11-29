@@ -10,3 +10,6 @@
       posix_shell: "{{ tomcat_shell }}",
       posix_home: "{{ tomcat_dir }}"
       }
+    - {
+      role: apache2
+      }

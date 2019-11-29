@@ -1,0 +1,24 @@
+---
+- name: start apache2
+  systemd:
+    name: started
+    state: present
+    daemon_reload: yes
+
+- name: stop apache2
+  systemd:
+    name: stopped
+    state: present
+    daemon_reload: yes
+
+- name: restart apache2
+  systemd:
+    name: restarted
+    state: present
+    daemon_reload: yes
+
+- name: service apache2 is reloaded
+  systemd:
+    name: reloaded
+    state: present
+    daemon_reload: yes
