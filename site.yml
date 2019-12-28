@@ -1,6 +1,5 @@
-- name: Run user role on all servers
-  hosts:
-   - all
+---
+- hosts: nexus_server
   become: true
   roles:
-   - create_first_role
+    - nexus

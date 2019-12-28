@@ -1,7 +1,0 @@
----
--name: Install java8
- apt:
-   name: OpenJDK
-   update_cache: yes
-   install_recommends: yes
-   state: present
