@@ -13,4 +13,12 @@
     owner: "{{ nexus_username }}"
     group: "{{ nexus_groupname }}"
     mode: 0750
+
+- name: Change optnexus to nexus
+  file:
+    state: directory
+    path: "{{ nexus_path }}"
+    owner: "{{ nexus_username }}"
+    group: "{{ nexus_groupname }}"
+    mode: 0750
     recurse: true
